@@ -90,7 +90,7 @@ footer a {
   font-size: 2em;
 }
 footer a:hover {
-	color: darkslategray;
+	color: gold;
 }
 footer a::fourth-letter {
 	color: red;
