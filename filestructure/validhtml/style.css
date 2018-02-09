@@ -1,30 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Bree+Serif|Montserrat');
+html {
+	font-size: 1rem;
+	margin: 0;
+}
 body {
 	background: Azure;
-	font-size: 100%;
+	font-size: 1em;
 	font-family: 'Arvo', serif;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
 		background-repeat: no-repeat;
 		background-position: right top;
 		background-attachment: fixed;
 }
-h1, h3, h4, h5, h6, a {
+h1, h3, h4, h5, h6 {
+	color: Gold;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	letter-spacing: 1.1px;
+}
+a {
 	color: Gold;
 	font-family: 'Arvo', serif;
 	font-stretch: condensed;
 }
+h3 {
+	text-shadow: 1px 1px 1px black;
+}
 h1 {
-	border-bottom: 8px groove DarkCyan;
+	border-bottom: 8px groove darkcyan;
 	border-radius: 150px;
 	padding-left: 10px;
 	padding-bottom: 3px;
 	background-color: Lavender;
 	font-variant: small-caps;
+	text-shadow: 1px 1px 1px black;
 }
 h2 {
-	color: LightSalmon;
+	color: lightsalmon;
 	font-family: 'Bree Serif', serif;
-	font-stretch
+	letter-spacing: 1px;
 }
 a {
 	color: DarkOrange;
@@ -45,6 +59,7 @@ header {
 	background: teal;
 	margin: 15px;
 	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer {
 	border: 10px double powderblue;
@@ -52,38 +67,57 @@ footer {
 	color: white;
 	text-align: center;
 	background: teal;
-	font-size: 100%;
+	font-size: 1em;
 	padding: 20px;
 	margin: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 footer p::first-letter {
-	color: LightCyan;
-	font-size: 200%;
+	color: lightcyan;
+	font-size: 2em;
+}
+footer a {
+  color: white;
+  padding: .5em;
+  font-size: 2em;
+}
+footer a:hover {
+	color: darkslategray;
+}
+footer a::fourth-letter {
+	color: red;
 }
 aside {
 	border: 10px double orange;
 	padding-left: 10px;
-	background-color: Beige;
+	background: linear-gradient(beige, lightgrey);
+	background-color: beige;
+	background-repeat: repeat-x;
 	margin-top: 10px;
+	display: block;
 }
 .special {
-	background-color: RGBA(255, 228, 181, 0.9);
+	background-color: rgba(255, 228, 181, 0.9);
 	padding-left: 10px;
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
 }
 #unique {
-	background-color: RGBA(188, 143, 143, 0.9);
+	background-color: rgba(188, 143, 143, 0.9);
 	padding-left: 10px;
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
 }
 section {
-	background-color: RGBA(188, 143, 143, 0.9);
+	background-color: rgba(188, 143, 143, 0.9);
 	padding-left: 10px;
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
+}
+.fab {
+	color: cyan;
 }
