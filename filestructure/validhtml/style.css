@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bree+Serif|Montserrat');
+body {
+	background: Azure;
+	font-size: 100%;
+	font-family: 'Arvo', serif;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+}
+h1, h3, h4, h5, h6, a {
+	color: Gold;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+}
+h1 {
+	border-bottom: 8px groove DarkCyan;
+	border-radius: 150px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	background-color: Lavender;
+	font-variant: small-caps;
+}
+h2 {
+	color: LightSalmon;
+	font-family: 'Bree Serif', serif;
+	font-stretch
+}
+a {
+	color: DarkOrange;
+}
+p {
+	color: black; 
+	font-family: 'Montserrat', sans-serif;
+	font-stretch: expanded;
+}
+section {
+	text-align: justify;
+    text-justify: inter-word;
+}
+header {
+	border: 10px double powderblue;
+    border-radius: 150px;
+    padding: 10px;
+	background: teal;
+	margin: 15px;
+	text-align: center;
+}
+footer {
+	border: 10px double powderblue;
+	border-radius: 100px;
+	color: white;
+	text-align: center;
+	background: teal;
+	font-size: 100%;
+	padding: 20px;
+	margin: 15px;
+}
+footer p::first-letter {
+	color: LightCyan;
+	font-size: 200%;
+}
+aside {
+	border: 10px double orange;
+	padding-left: 10px;
+	background-color: Beige;
+	margin-top: 10px;
+}
+.special {
+	background-color: RGBA(255, 228, 181, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+#unique {
+	background-color: RGBA(188, 143, 143, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+section {
+	background-color: RGBA(188, 143, 143, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
