@@ -17,6 +17,9 @@ h1, h3, h5, h6 {
 	font-family: 'Arvo', serif;
 	font-stretch: condensed;
 	letter-spacing: 1.1px;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 a {
 	color: gold;
@@ -42,11 +45,14 @@ h1 {
 	background: linear-gradient(to right, whitesmoke, powderblue);
 	font-variant: small-caps;
 	text-shadow: 1px 1px 1px black;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 h2 {
 	color: lightsalmon;
 	font-family: 'Bree Serif', serif;
 	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px black;
 }
 a {
 	color: DarkOrange;
@@ -92,9 +98,6 @@ footer a {
 footer a:hover {
 	color: gold;
 }
-footer a::fourth-letter {
-	color: red;
-}
 aside {
 	border: 10px double orange;
 	padding-left: 10px;
@@ -103,6 +106,8 @@ aside {
 	background-repeat: repeat-x;
 	margin-top: 10px;
 	display: block;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 .special {
 	background-color: rgba(255, 228, 181, 0.9);
@@ -110,6 +115,8 @@ aside {
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 #unique {
 	background-color: rgba(188, 143, 143, 0.9);
@@ -117,6 +124,8 @@ aside {
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 section {
 	background-color: rgba(188, 143, 143, 0.9);
@@ -124,6 +133,8 @@ section {
 	padding-top: 1px;
 	padding-bottom: 10px;
 	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 .fab {
 	color: cyan;
